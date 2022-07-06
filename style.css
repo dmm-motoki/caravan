@@ -14,7 +14,7 @@ header, nav, h2, .main-visual, footer {
 }
 
 header {
-  width: 90%;
+  width: 100%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
@@ -225,4 +225,76 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .heading {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    display: block;
+    width: 100%;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .pagination {
+    padding-bottom: 50px;
+  }
+
+  .blog-image {
+    width:49%;
+  }
+
+  .blog-text {
+    width: 49%;
+    padding-top: 5%;
+  }
+
+  .blog-text-heading {
+    width: 100%;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-contents {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
 }
